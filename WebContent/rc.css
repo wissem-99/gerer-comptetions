@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+body
+{
+	background: url("image/v.jpg");
+
+    height: 100%;
+        
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+h3
+{
+	color:white;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+form label {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: middle;
+}
+#prenom, #nom, #mail, form textarea {
+    width: 70%;
+    vertical-align: middle;
+}
+form textarea {
+    border: none;
+    padding: 7px;
+    font-family: arial;
+}
+#mail {
+    border: none;
+    height: 35px;
+    padding: 7px;
+}
+ #mail:focus, form textarea {
+    outline: none;
+}
